@@ -173,7 +173,11 @@
                         "streetNumber": "1",
                         "countryCode" : "Fr",
                         "state"       : "Île-de-France",
-                        "stateCode"   : "IDF"
+                        "stateCode"   : "IDF",
+                        "extra": {
+                            "googlePlaceId": null
+                        },
+                        "formattedAddress": null                        
                     });
 
                     results.raw.should.deep.equal({ status: "OK", results: [{
